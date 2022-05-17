@@ -540,7 +540,6 @@ const recipeContainer = document.querySelector('.recipe');
 const controlRecipes = async function() {
     try {
         const id = window.location.hash.slice(1);
-        console.log(id);
         if (!id) return;
         _recipeViewJsDefault.default.renderSpinner();
         // 1) loading recipe
@@ -554,17 +553,20 @@ const controlRecipes = async function() {
 };
 const controlSearchResults = async function() {
     try {
+        // 1) Get search query
         const query = _searchViewJsDefault.default.getQuery();
         if (!query) return;
+        // 2) Load search results
         await _modelJs.loadSearchResults('pizza');
+        // 3) Render results
         console.log(_modelJs.state.search.results);
     } catch (err) {
         console.log(err);
     }
 };
-controlSearchResults();
 const init = function() {
     _recipeViewJsDefault.default.addHandlerRender(controlRecipes);
+    _searchViewJsDefault.default.addHandlerSearch(controlSearchResults);
 };
 init();
 
@@ -2805,7 +2807,18 @@ parcelHelpers.defineInteropFlag(exports);
 class SearchView {
     #parentEl = document.querySelector('.search');
     getQuery() {
-        return this.#parentEl.querySelector('.search__field').value;
+        const query = this.#parentEl.querySelector('.search__field').value;
+        this.#clearInput();
+        return query;
+    }
+     #clearInput() {
+        this.#parentEl.querySelector('.search__field').value = '';
+    }
+    addHandlerSearch(handler) {
+        this.#parentEl.addEventListener('submit', function(e) {
+            e.preventDefault();
+            handler();
+        });
     }
 }
 exports.default = new SearchView();
