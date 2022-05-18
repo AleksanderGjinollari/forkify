@@ -3,6 +3,8 @@ import icons from 'url:../../img/icons.svg';
 
 class ResultsView extends View {
   _parentElement = document.querySelector('.results');
+  _errorMessage = `No recipes found for your search, please try again.`;
+  _successMessage = ``;
 
   _generateMarkup() {
     console.log(this._data);
@@ -13,7 +15,7 @@ class ResultsView extends View {
       <li class="preview">
         <a class="preview__link preview__link--active" href="#${result.id}">
           <figure class="preview__fig">
-            <img src="${result.image}" alt="Test" />
+            <img src="${result.image}" alt="${result.title}" />
           </figure>
           <div class="preview__data">
             <h4 class="preview__title">${result.title}</h4>
