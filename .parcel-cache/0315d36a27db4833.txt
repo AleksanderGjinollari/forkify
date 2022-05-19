@@ -2,17 +2,17 @@
 72/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/index.html1652895870866499000 0
 90/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/forkify-flowchart-part-2.png1644221921000000000 0
 101/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/forkify-architecture-recipe-loading.png1644221921000000000 0
-85/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/index.f7626f62.css1652895256996499000 0
-88/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/index.e37f48ea.js.map1652898773996499000 0
-87/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/favicon.8b2f57bf.png1652895257086499000 0
+85/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/index.f7626f62.css1652985924696256200 0
+88/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/index.e37f48ea.js.map1652986545816256200 0
+87/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/favicon.8b2f57bf.png1652985925106256200 0
 72/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/.gitignore1652634686983654700 0
 90/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/forkify-flowchart-part-1.png1644221921000000000 0
 78/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/img/logo.png1644221921000000000 0
 81/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/img/favicon.png1644221921000000000 0
 69/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/img1652631770663654700 1
 78/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/js/config.js1652897138646499000 0
-92/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/js/views/paginationView.js1652898698086499000 0
-88/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/js/views/recipeView.js1652896040886499000 0
+92/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/js/views/paginationView.js1652901389176499000 0
+88/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/js/views/recipeView.js1652986545586256200 0
 88/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/js/views/searchView.js1652894190966499000 0
 68/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/js1652807900459600500 1
 84/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/sass/_preview.scss1644221921000000000 0
@@ -279,7 +279,7 @@
 115/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/es/reflect/prevent-extensions.js1652637378213654700 0
 110/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/es/reflect/to-string-tag.js1652637378833654700 0
 100/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/es/reflect/has.js1652637377453654700 0
-82/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/js/controller.js1652898871536499000 0
+82/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/js/controller.js1652986069276256200 0
 103/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/es/regexp/dot-all.js1652637376363654700 0
 112/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/es/reflect/delete-property.js1652637376343654700 0
 108/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/es/get-iterator-method.js1652637377353654700 0
@@ -2738,7 +2738,7 @@
 115/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/@parcel/core/test/RequestTracker.test.js1652633365013654700 0
 101/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/set/reduce.js1652637378273654700 0
 124/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/@parcel/runtime-js/lib/helpers/node/css-loader.js1652633362163654700 0
-85/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/icons.21bad73c.svg1652895257166499000 0
+85/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/icons.21bad73c.svg1652985925066256200 0
 109/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/@parcel/packager-js/lib/helpers.js1652633362083654700 0
 99/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/node-gyp-build/README.md1652633359723654700 0
 122/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/@parcel/watcher/src/watchman/WatchmanBackend.hh1652633362843654700 0
@@ -3248,7 +3248,7 @@
 121/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/@swc/helpers/src/_class_private_method_init.js1652633363893654700 0
 116/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/actual/number/max-safe-integer.js1652637378063654700 0
 89/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/csso/lib/clean1652633363633654700 1
-89/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/index.f7626f62.css.map1652895256996499000 0
+89/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/index.f7626f62.css.map1652985924706256200 0
 117/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/type-fest/source/require-at-least-one.d.ts1652633362683654700 0
 126/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/@parcel/source-map/parcel_sourcemap_wasm/src/lib.rs1652633365253654700 0
 100/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/caniuse-lite/data/regions1652633366863654700 1
@@ -4766,7 +4766,7 @@
 102/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/async-iterator1652637378753654700 1
 101/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/math/clamp.js1652637376203654700 0
 120/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/@parcel/optimizer-image/lib/ImageOptimizer.js1652633359223654700 0
-85/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/icons.dfd7a6db.svg1652895257166499000 0
+85/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/icons.dfd7a6db.svg1652985925076256200 0
 131/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/@parcel/optimizer-image/parcel-image.linux-x64-musl.node1652633365893654700 0
 94/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/msgpackr/index.d.ts1652633362673654700 0
 102/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/css-select/lib/compile.d.ts1652633362793654700 0
@@ -5280,7 +5280,7 @@
 100/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/chalk/source/templates.js1652633359333654700 0
 106/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/stable/object/create.js1652637376293654700 0
 103/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/array/concat.js1652637376243654700 0
-77/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/index.html1652895870966499000 0
+77/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/index.html1652985925076256200 0
 114/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/internals/number-parse-float.js1652637378103654700 0
 103/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/svgo/plugins/cleanupAttrs.js1652633362113654700 0
 115/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/features/typed-array/index-of.js1652637377523654700 0
@@ -5710,7 +5710,7 @@
 115/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/dom-serializer/node_modules/entities/lib1652633362363654700 1
 125/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/dom-serializer/node_modules/entities/lib/encode.js1652633359443654700 0
 127/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/dom-serializer/node_modules/entities/lib/decode.d.ts1652633362343654700 0
-84/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/logo.726d37a8.png1652895257086499000 0
+84/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/logo.726d37a8.png1652985925106256200 0
 103/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/dom-collections1652637377873654700 1
 103/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/actual/math/expm1.js1652637377003654700 0
 124/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/dom-serializer/node_modules/entities/lib/index.js1652633359713654700 0
@@ -6077,7 +6077,7 @@
 123/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/caniuse-lite/data/features/screen-orientation.js1652633366473654700 0
 119/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/caniuse-lite/data/features/css3-boxsizing.js1652633365313654700 0
 119/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/caniuse-lite/data/features/filereadersync.js1652633365613654700 0
-66/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist1652898773996499000 1
+66/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist1652986545816256200 1
 128/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/caniuse-lite/data/features/stricttransportsecurity.js1652633366543654700 0
 108/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/instance/for-each.js1652637377273654700 0
 105/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/set/delete-all.js1652637376333654700 0
@@ -6629,7 +6629,7 @@
 126/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/caniuse-lite/data/features/getboundingclientrect.js1652633365683654700 0
 114/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/caniuse-lite/data/features/autofocus.js1652633363133654700 0
 102/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/set-timeout.js1652637378393654700 0
-84/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/index.e37f48ea.js1652898773986499000 0
+84/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/dist/index.e37f48ea.js1652986545806256200 0
 120/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/caniuse-lite/data/features/css-containment.js1652633364643654700 0
 105/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/@parcel/utils/src/sourcemap.js1652633364243654700 0
 126/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/caniuse-lite/data/features/requestanimationframe.js1652633366413654700 0
@@ -7026,7 +7026,7 @@
 104/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/string/substr.js1652637378713654700 0
 115/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/array-buffer/constructor.js1652637376263654700 0
 109/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/array-buffer/index.js1652637377613654700 0
-77/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/js/model.js1652898773706499000 0
+77/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/src/js/model.js1652985314176256200 0
 115/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/typed-array/reduce-right.js1652637378253654700 0
 114/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/@parcel/source-map/src/wasm-bindings.js1652633362543654700 0
 108/home/aleksander/code/AleksanderGjinollari/MyProjects/forkify/node_modules/core-js/full/typed-array/every.js1652637377003654700 0
