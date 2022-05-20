@@ -7,34 +7,38 @@ import paginationView from './views/paginationView.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
-if (module.hot) {
-  module.hot.accept();
-}
+// if (module.hot) {
+//   module.hot.accept();
+// }
 
 const recipeContainer = document.querySelector('.recipe');
 
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
-
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
 
     if (!id) return;
     recipeView.renderSpinner();
-    // 1) loading recipe
+
+    // 0) Update results view to mark selected search result
+    resultsView.update(model.getSearchResultsPage());
+
+    // 1) Updating bookmarks view
+    // bookmarksView.update(model.state.bookmarks);
+
+    // 2) Loading recipe
     await model.loadRecipe(id);
-    // const { recipe } = model.state;
-    // 2) rendering recipe
+
+    // 3) Rendering recipe
     recipeView.render(model.state.recipe);
-    // TEST RECIPES
-    controlServings();
   } catch (err) {
     recipeView.renderError();
+    console.error(err);
   }
 };
-
 const controlSearchResults = async function () {
   try {
     resultsView.renderSpinner();
@@ -67,8 +71,9 @@ const controlPagination = function (goToPage) {
 const controlServings = function (newServings) {
   // Update the recipe servings (in state)
   model.updateServings(newServings);
+
   // Update the recipe view
-  recipeView.render(model.state.recipe);
+  recipeView.update(model.state.recipe);
 };
 
 const init = function () {
