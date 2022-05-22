@@ -1781,7 +1781,7 @@ const createRecipeObject = function(data) {
 };
 const loadRecipe = async function(id) {
     try {
-        const data = await _helpers.AJAX(`${_configJs.API_URL}${id}`);
+        const data = await _helpers.AJAX(`${_configJs.API_URL}${id}?key=${_configJs.KEY}`);
         state.recipe = createRecipeObject(data);
         if (state.bookmarks.some((bookmark)=>bookmark.id === id
         )) state.recipe.bookmarked = true;
@@ -1795,7 +1795,7 @@ const loadRecipe = async function(id) {
 const loadSearchResults = async function(query) {
     try {
         state.search.query = query;
-        const data = await _helpers.AJAX(`${_configJs.API_URL}?search=${query}`);
+        const data = await _helpers.AJAX(`${_configJs.API_URL}?search=${query}&key=${_configJs.KEY}`);
         console.log(data);
         state.search.results = data.data.recipes.map((rec)=>{
             return {
@@ -3121,7 +3121,7 @@ class PreviewView extends _viewDefault.default {
           <div class="preview__data">
             <h4 class="preview__title">${this._data.title}</h4>
             <p class="preview__publisher">${this._data.publisher}</p>
-            <div class="preview__user-generated">
+            <div class="preview__user-generated ${this._data.key ? '' : 'hidden'}">
               <svg>
                 <use href="${_iconsSvgDefault.default}#icon-user"></use>
               </svg>
