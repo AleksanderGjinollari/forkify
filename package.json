@@ -3,27 +3,21 @@
   "version": "1.0.0",
   "description": "Recipe application",
   "default": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AleksanderGjinollari/forkify.git"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Aleksander Gjinollari",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AleksanderGjinollari/forkify/issues"
-  },
-  "homepage": "https://github.com/AleksanderGjinollari/forkify#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.5.0",
-    "parcel": "^2.5.0"
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
   },
   "dependencies": {
-    "core-js": "^3.22.5",
-    "fractional": "^1.0.0",
-    "regenerator-runtime": "^0.13.9"
+    "fracty": "^1.0.11"
   }
 }
